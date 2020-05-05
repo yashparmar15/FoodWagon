@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>FOODWAGON</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- Third party plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+
+        <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+
+
+
+            <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+
+        
+
+    
+        
+                
+
+
+
+
+
+        
+        
+        <!--Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" href="CSS/floating-wpp.css">
+        <link rel="stylesheet" href="CSS/bootstarp.min.css">
+        <link rel="stylesheet" href="CSS/nav.css">
+        <link rel="stylesheet" href="CSS/login.css">
+        <link rel="stylesheet" href="CSS/home.css">
+        <link rel="stylesheet" href="CSS/about.css">
+        <style>
+            .no-js #loader { display: none;  }
+            .js #loader { display: block; position: absolute; left: 100px; top: 0; }
+            .se-pre-con {
+                position: fixed;
+                left: 0px;
+                top: 0px;
+                width: 100%;
+                height: 100%;
+                z-index: 9999;
+                background: url(img/Preloader_2.gif) center no-repeat #fff;
+            }
+            </style>
+            
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+            <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+            <script>
+                $(window).load(function() {
+                    $(".se-pre-con").fadeOut("slow");;
+                });
+            </script>
+        
+    </head>
+    <body id="page-top">
+        <div id="myButton" style="z-index: 100000;"></div>
+        <div class="se-pre-con"></div>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 navbar-fixed-top" id="mainNav" style="z-index: 1000;background-color: black;">
+            <div class="container" >
+                <a class="navbar-brand js-scroll-trigger" href="index.html"><img class="img-fluid" src="img/FoodWagon.png" width="200" height="40"  alt="FOODWAGON" /></a><button class="navbar-toggler navbar-toggler-right" style="background-color: aliceblue;" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon" style="color: aliceblue;"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html"><i class="fa fa-home"></i> Home</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="about.html"><i class="fa fa-info"></i>  About</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle js-scroll-trigger" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-cogs"></i>  Services
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="#">Book Chef</a>
+                              <a class="dropdown-item" href="#">Select Venue</a>
+                              <a class="dropdown-item" href="#">Book Food Trucks</a>
+                            </div>
+                          </li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#cart"><i class="fa fa-shopping-cart"></i>  Cart</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact"><i class="fa fa-phone"></i>  Contact</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#login" data-toggle="modal" data-target="#darkModalForm"><i class="fa fa-sign-in"></i>  Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- <header class="masthead">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-10 align-self-end">
+                        <h1 class="text-uppercase text-white font-weight-bold sha1">Global Platform for Local Food</h1>
+                        <hr class="divider my-4" />
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 font-weight-light mb-5 sha size-n">Nobody should have a bad meal</p>
+                        <a class="btn-liquid" href="#about"><span class="inner">Find Out More</span></a>
+                    </div>
+                </div>
+            </div>
+        </header> -->
+        
+
+        <section class="page-title overlay" style="background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(img/about/img10.jpg);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center"id="content">
+                        
+                        <h1 class="text-white font-weight-bold anime">About Us</h1>
+                        <ol class="breadcrumb">
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>About Us</li>
+                        </ol>
+                    </div>                                        
+                </div>
+            </div>
+        </section>
+        
+      <!-- philosophy -->
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 order-2 order-lg-1" style="padding-top: 80px;">
+                <h5 class="section-title-sm">Know About Us</h5>
+                <h2 class="section-title section-title-border-half">Overview</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptatibus architecto provident nesciunt odit quasi quisquam repellendus voluptatem, ipsam, illum cum enim dolorem voluptas minima perferendis aspernatur officia tempore ut fugiat numquam. Modi minima quas repudiandae, accusamus veritatis suscipit non tempore, ducimus inventore, vel eaque fugit aspernatur doloribus corporis nam iste. Labore suscipit facere ratione earum. Asperiores maxime blanditiis sed, incidunt cum quo consectetur mollitia officia et. Earum quisquam consequatur perspiciatis ea tempore recusandae odio laborum exercitationem commodi placeat rerum nostrum, temporibus, ducimus ipsa quos cupiditate mollitia. Expedita sit molestiae, labore quidem asperiores, nostrum quo, quis eum dolorum iste tenetur.</p>
+                <a href="#" class="btn btn-primary">Explore More</a>
+            </div>
+            <!-- philosophy image -->
+            <div class="col-lg-5 align-self-center order-1 order-lg-2 mb-md-50">
+                <img class=" w-100" src="img/about/img2.jpg" alt="philosophy-image">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /philosophy -->
+
+<br>
+
+
+
+
+<!-- skill -->
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h5 class="section-title-sm">Best Reason</h5>
+                <h2 class="section-title section-title-border-half">Why Choose Us</h2>
+            </div>
+
+
+
+
+
+
+
+            <!-- accordion -->
+            <div class="col-lg-6">
+                <div id="accordion" class="mb-md-50">
+                    <div class="card border-0 mb-4">
+                        <div class="card-header bg-gray border p-0">
+                            <a class="card-link h5 d-block tex-dark mb-0 py-10 px-4"  data-toggle="collapse" href="#collapseOne">
+                                <i class="ti-minus text-primary mr-2"></i> Our Products
+                            </a>
+                        </div>
+                        <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                            <div class="card-body font-secondary text-color pl-0 pb-0">
+                               <p id="card-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel omnis autem incidunt debitis doloremque perspiciatis vitae eveniet. Voluptate reiciendis, necessitatibus perspiciatis laborum optio id, beatae unde deleniti quo quam vitae.</p> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 mb-4">
+                        <div class="card-header bg-gray border p-0">
+                            <a class="collapsed card-link h5 d-block tex-dark mb-0 py-10 px-4" data-toggle="collapse" href="#collapseTwo">
+                                <i class="ti-plus text-primary mr-2"></i> Our Servies
+                            </a>
+                        </div>
+                        <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                            <div class="card-body font-secondary text-color pl-0 pb-0">
+                                <p id="card-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel omnis autem incidunt debitis doloremque perspiciatis vitae eveniet. Voluptate reiciendis, necessitatibus perspiciatis laborum optio id, beatae unde deleniti quo quam vitae.</p> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 mb-4">
+                        <div class="card-header bg-gray border p-0">
+                            <a class="collapsed card-link h5 d-block tex-dark mb-0 py-10 px-4" data-toggle="collapse" href="#collapseThree">
+                                <i class="ti-plus text-primary mr-2"></i> Our Support
+                            </a>
+                        </div>
+                        <div id="collapseThree" class="collapse" data-parent="#accordion">
+                            <div class="card-body font-secondary text-color pl-0 pb-0">
+                                <p id="card-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel omnis autem incidunt debitis doloremque perspiciatis vitae eveniet. Voluptate reiciendis, necessitatibus perspiciatis laborum optio id, beatae unde deleniti quo quam vitae.</p>                             
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- progressbar -->
+            <div class="col-lg-6">
+                <div class="progressbar">
+                    <h5 class="progressbar-title">Branding</h5>
+                    <div class="progress" data-percent="85%">
+                        <div class="progress-bar progress-bar-striped" style="width: 85%;">
+                            <div class="progress-bar-value">85%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="progressbar">
+                    <h5 class="progressbar-title">Branding</h5>
+                    <div class="progress" data-percent="75%">
+                        <div class="progress-bar progress-bar-striped" style="width: 75%;">
+                            <div class="progress-bar-value">75%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="progressbar">
+                    <h5 class="progressbar-title">Consulting</h5>
+                    <div class="progress" data-percent="90%">
+                        <div class="progress-bar progress-bar-striped" style="width: 90%;">
+                            <div class="progress-bar-value">90%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="progressbar">
+                    <h5 class="progressbar-title">Business</h5>
+                    <div class="progress" data-percent="75%">
+                        <div class="progress-bar progress-bar-striped" style="width: 75%;">
+                            <div class="progress-bar-value">75%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /skill --> 
+
+
+
+<div class="parallax-container">
+    <div class="parallax"><img src="img/about/img7.jpg"class="responsive-img"></div>
+  </div>
+
+
+
+<!-- team -->
+<section class="section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12 text-center">
+                <h5 class="section-title-sm">Our Team</h5>
+                <h2 class="section-title section-title-border">Experts Team</h2>
+            </div>
+            <!-- team member -->
+            
+            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                <div class="card text-center p-3">
+                    
+                    <img  class="card-img-top rounded" src="img/about/img3.png" alt="team member image">
+                    <div class="card-body pb-0">
+                        <a href="team-single.html" class="card-title h4 font-primary text-dark">Rajdeep Gautam</a>
+                        <h6 class="text-color">SUPERVISOR</h6>
+                        <p class="card-text border-bottom pb-3">Lorem ipsum dolor amet consectur adipsicing elit sed eiusm tempor incididunt labore dolore magna aliqua enim minim.</p>
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a href="#" class="text-color d-inline-block py-1 px-3">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="text-color d-inline-block py-1 px-3">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="text-color d-inline-block py-1 px-3">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="text-color d-inline-block py-1 px-3">
+                                    <i class="fab fa-skype"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- team member -->
+            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                <div class="card text-center p-3">
+                    <img class="card-img-top rounded" src="img/about/img3.png" alt="team member image">
+                    <div class="card-body pb-0">
+                        <a href="team-single.html" class="card-title h4 font-primary text-dark">XYX</a>
+                        <h6 class="text-color">SUPERVISOR</h6>
+                        <p class="card-text border-bottom pb-3">Lorem ipsum dolor amet consectur adipsicing elit sed eiusm tempor incididunt labore dolore magna aliqua enim minim.</p>
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a href="#" class="text-color d-inline-block py-1 px-3">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="text-color d-inline-block py-1 px-3">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="text-color d-inline-block py-1 px-3">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="text-color d-inline-block py-1 px-3">
+                                    <i class="fab fa-skype"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- team member -->
+            <div class="col-lg-4 col-sm-6">
+                <div class="card text-center p-3">
+                    <img class="card-img-top rounded" src="img/about/img3.png" alt="team member image">
+                    <div class="card-body pb-0">
+                        <a href="team-single.html" class="card-title h4 font-primary text-dark">XYX</a>
+                        <h6 class="text-color">SUPERVISOR</h6>
+                        <p class="card-text border-bottom pb-3">Lorem ipsum dolor amet consectur adipsicing elit sed eiusm tempor incididunt labore dolore magna aliqua enim minim.</p>
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a href="#" class="text-color d-inline-block py-1 px-3">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="text-color d-inline-block py-1 px-3">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="text-color d-inline-block py-1 px-3">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="text-color d-inline-block py-1 px-3">
+                                    <i class="fab fa-skype"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+<!-- /team -->
+
+
+<!-- progress -->
+
+<div class="counter" style="background-image:linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.6)),url(img/about/img1.jpg);background-repeat:no-repeat;background-size:100%">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="employees"><i class="fa fa-group" id="progress-icon" style="font-size:40px;padding-right:10px;" ></i>
+                    <p class="counter-count">155</p>
+                    <p class="employee-p">Employee</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="customer"><i class="fa fa-thumbs-up" id="progress-icon" style="font-size:40px;padding-right:10px" ></i>
+                    <p class="counter-count" >204</p>
+                    <p class="customer-p">Satisfied Clients</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="design"><i id="progress-icon"class="fa fa-handshake-o" id="progress-icon" style="font-size:40px;padding-right:10px" ></i>
+                    <p class="counter-count">300</p>
+                    <p class="design-p">Happy Customers</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="order"><i class="fa fa-smile-o" id="progress-icon" style="font-size:40px;padding-right:10px" ></i>
+                    <p class="counter-count">433</p>
+                    <p class="order-p">Orders</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- progress ends -->
+
+<!-- parllax container -->
+<br><br>
+
+<div class="parallax-container">
+    <div class="parallax"><img src="img/1.PNG"class="responsive-img"></div>
+  </div>
+  <!-- parllax container -->
+
+<!-- scroll bar for clients -->
+<div class="container" style="padding-top: 20px;">
+    <div class="row">
+        <div class="col-lg-12">
+            <h2 style="font-family:'Poppins', sans-serif;text-align: center;"><b>What Our Customers say</b></h2>
+        </div>
+      <div class="col">
+       
+        <img class="mw-100" style="height: 500px;" src="img/about/img4.png" alt="">
+      </div>
+      <div class="col" style="display: inline-block;overflow: hidden;">
+        
+        <button class="waves-effect  waves-light btn btn-outline-dark" id="slideback" type="button"><i class="fas fa-arrow-left slideback"></i></button>
+        <button class="waves-effect  waves-light btn btn-outline-dark" id="slide" type="button" style= "float: right;"><i class="fas fa-arrow-right slideback"></i></button>
+        
+
+        <div class="container box" id="container-box">
+            
+                
+            <div class="card-a">
+                <i class="fa fa-quote-left quotel"></i>
+            <p class="card-customer-content" id="card-content" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam provident praesentium voluptate molestiae dolorum expedita impedit quia asperiores! Fugit, asperiores numquam? Voluptas illo aperiam fugiat dicta consectetur vitae minus nihil.</p> 
+            <i class="fa fa-quote-right quoter"></i>            
+        </div>
+            <div class="card-b">
+                <i class="fa fa-quote-left quotel"></i>
+            <p class="card-customer-content" id="card-content" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam provident praesentium voluptate molestiae dolorum expedita impedit quia asperiores! Fugit, asperiores numquam? Voluptas illo aperiam fugiat dicta consectetur vitae minus nihil.</p> 
+            <i class="fa fa-quote-right quoter"></i> 
+
+            </div>
+            <div class="card-c">
+                <i class="fa fa-quote-left quotel"></i>
+            <p class="card-customer-content" id="card-content" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam provident praesentium voluptate molestiae dolorum expedita impedit quia asperiores! Fugit, asperiores numquam? Voluptas illo aperiam fugiat dicta consectetur vitae minus nihil.</p> 
+            <i class="fa fa-quote-right quoter"></i> 
+            </div>
+        
+        
+            
+            <div class="card-a">
+                <i class="fa fa-quote-left quotel"></i>
+            <p class="card-customer-content" id="card-content" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam provident praesentium voluptate molestiae dolorum expedita impedit quia asperiores! Fugit, asperiores numquam? Voluptas illo aperiam fugiat dicta consectetur vitae minus nihil.</p> 
+            <i class="fa fa-quote-right quoter"></i>     
+            </div>
+            <div class="card-b">
+                <i class="fa fa-quote-left quotel"></i>
+            <p class="card-customer-content" id="card-content" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam provident praesentium voluptate molestiae dolorum expedita impedit quia asperiores! Fugit, asperiores numquam? Voluptas illo aperiam fugiat dicta consectetur vitae minus nihil.</p> 
+            <i class="fa fa-quote-right quoter"></i> 
+            </div>
+            <div class="card-c">
+                <i class="fa fa-quote-left quotel"></i>
+                <p class="card-customer-content" id="card-content" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam provident praesentium voluptate molestiae dolorum expedita impedit quia asperiores! Fugit, asperiores numquam? Voluptas illo aperiam fugiat dicta consectetur vitae minus nihil.</p> 
+                <i class="fa fa-quote-right quoter"></i>     
+            </div>
+            <div class="card-a">
+                <i class="fa fa-quote-left quotel"></i>
+                <p class="card-customer-content" id="card-content" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam provident praesentium voluptate molestiae dolorum expedita impedit quia asperiores! Fugit, asperiores numquam? Voluptas illo aperiam fugiat dicta consectetur vitae minus nihil.</p> 
+                <i class="fa fa-quote-right quoter"></i>     
+            </div>
+            <div class="card-b">
+                <i class="fa fa-quote-left quotel"></i>
+            <p class="card-customer-content" id="card-content" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam provident praesentium voluptate molestiae dolorum expedita impedit quia asperiores! Fugit, asperiores numquam? Voluptas illo aperiam fugiat dicta consectetur vitae minus nihil.</p> 
+            <i class="fa fa-quote-right quoter"></i>     
+            </div>
+            <div class="card-c">
+                <i class="fa fa-quote-left quotel"></i>
+                <p class="card-customer-content" id="card-content" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam provident praesentium voluptate molestiae dolorum expedita impedit quia asperiores! Fugit, asperiores numquam? Voluptas illo aperiam fugiat dicta consectetur vitae minus nihil.</p> 
+                <i class="fa fa-quote-right quoter"></i>     
+            
+            </div>
+            
+
+
+
+
+
+        </div>
+
+        
+      </div>
+    </div>
+</div>
+
+
+
+<!-- scroll bar for clients ENDS-->
+
+<!-- contact details -->
+<div class="counter" style="background-image:linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.6)),url(img/about/img6.jpg);background-repeat:no-repeat;background-size:100%;height: 200px;">
+    <div class="container">
+        <div class="row">
+            <div class="contact-bar col-lg-12" style="height: 10px;"><h1 class="design-p" style="font-size: 30px;">Social Media Handle</h1></div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="employees"><a href="#"><i class="fab fa-instagram" id="progress-icon" style="font-size:40px;padding-right:10px;" ></i>
+                </a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="customer"><a href="#"><i class="fab fa-facebook" id="progress-icon" style="font-size:40px;padding-right:10px" ></i>
+                </a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="design"><a href="#"><i id="progress-icon"class="fab fa-youtube" id="progress-icon" style="font-size:40px;padding-right:10px" ></i>
+                </a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="order"><a href="#"><i class="fa fa-smile-o" id="progress-icon" style="font-size:40px;padding-right:10px" ></i>
+                </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    
+        
+        <!-- Core theme JS-->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="JS/floating-wpp.js"></script>
+        <script src="JS/whatsapp.js"></script>
+        <script src="JS/nav.js"></script>
+        <script src="JS/home.js"></script>
+        <script src="JS/about.js"></script>
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+        
+
+        
+
+
+    </body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>FOODWAGON</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- Third party plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
+        
+        <!--Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" href="CSS/floating-wpp.css">
+        <link rel="stylesheet" href="CSS/bootstarp.min.css">
+        <link rel="stylesheet" href="CSS/nav.css">
+        <link rel="stylesheet" href="CSS/login.css">
+        <link rel="stylesheet" href="CSS/contact.css">
+        <style>
+            .no-js #loader { display: none;  }
+            .js #loader { display: block; position: absolute; left: 100px; top: 0; }
+            .se-pre-con {
+                position: fixed;
+                left: 0px;
+                top: 0px;
+                width: 100%;
+                height: 100%;
+                z-index: 9999;
+                background: url(./img/Preloader_2.gif) center no-repeat #fff;
+            }
+            </style>
+            
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+            <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+            <script>
+                $(window).load(function() {
+                    $(".se-pre-con").fadeOut("slow");;
+                });
+            </script>
+        
+    </head>
+    <body id="page-top">
+        <div id="myButton" style="z-index: 100000;"></div>
+        <div class="se-pre-con"></div>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3 navbar-fixed-top" id="mainNav" style="z-index: 1000;">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="img-fluid" src="img/FoodWagon.png" width="200" height="40"  alt="FOODWAGON" /></a><button class="navbar-toggler navbar-toggler-right" style="background-color: aliceblue;" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon" style="color: aliceblue;"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html"><i class="fa fa-home"></i> Home</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about"><i class="fa fa-info"></i>  About</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle js-scroll-trigger" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-cogs"></i>  Services
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="#">Book Chef</a>
+                              <a class="dropdown-item" href="#">Select Venue</a>
+                              <a class="dropdown-item" href="#">Book Food Trucks</a>
+                            </div>
+                          </li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#cart"><i class="fa fa-shopping-cart"></i>  Cart</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="contact.html"><i class="fa fa-phone"></i>  Contact</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./login.html" ><i class="fa fa-sign-in"></i>  Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+   <!-- contact section -->
+         <section id="contact-section" style="padding-top: 100px;">
+           <div class="container">
+           	 <h2 style="padding-bottom: 50px; text-decoration: none;">Ready to start your next project with us?</h2>
+              <p>Let's Get In Touch and we will get back to you as soon as possible!</p>
+             <div class="contact-form">
+
+                  <!-- First grid -->
+               <div>
+                 <i class="fa fa-instagram"></i><span class="form-info">  foodwagon.official</span><br>
+                 <i class="fa fa-phone" > </i><span class="form-info">  +91 9540741258</span><br>
+                 <i class="fa fa-envelope"></i><span class="form-info"> support@foodwagon.co</span><br>
+                 <i class="fa fa-twitter"></i><span class="form-info"> @foodwagon_india</span>
+               </div>
+               
+                   <!-- second grid -->
+           <div>        
+             <form>
+               <input class="continput" type="text" placeholder="First Name" required>
+               <input class="continput" type="text" placeholder="Last Name" required><br>
+               <input class="continput" type="Email" placeholder="Email" required><br>
+               
+               <textarea name="message" placeholder="Message" rows="5" required></textarea><br>
+               <button class="submit" >Send Message</button> 
+             </form>   
+               </div>
+             </div>
+           </div>
+         </section>
+
+         
+     </body>
